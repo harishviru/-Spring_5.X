@@ -57,7 +57,7 @@ public class ClientTest {
 		Resource                                  resource    =null;	
 		HelloWorld                              helloWorld =null;
 		
-		resource=new FileSystemResource("D://Spring5X//IOCProj_01_HelloWorldExample//src//main//java//com//har//cfgs//applicationContext.xml");
+		resource=new FileSystemResource("C://Users//Harish//git//-Spring_5.X//IOCProj_01_HelloWorldExample//src//main//java//com//har//cfgs//applicationContext.xml");
 		//load Xml File into container
 		factory =new XmlBeanFactory(resource);
 		
@@ -91,7 +91,7 @@ public class ClientTest {
 		ApplicationContext            context         =null;
 		HelloWorld                              helloWorld =null;
 		
-		context  =new  FileSystemXmlApplicationContext("D://Spring5X//IOCProj_01_HelloWorldExample//src//main//java//com//har//cfgs//applicationContext.xml");
+		context  =new  FileSystemXmlApplicationContext("C://Users//Harish//git//-Spring_5.X//IOCProj_01_HelloWorldExample//src//main//java//com//har//cfgs//applicationContext.xml");
 		
 		helloWorld=(HelloWorld) context.getBean("hellobn");	
 		System.out.println(helloWorld);
