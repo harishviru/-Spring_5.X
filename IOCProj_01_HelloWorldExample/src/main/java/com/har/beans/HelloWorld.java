@@ -2,6 +2,7 @@ package com.har.beans;
 
 public class HelloWorld {
 
+	
 	private String name;
 	
 	public HelloWorld() {
