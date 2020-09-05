@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+	
+	  <description>
+	                       bean id is must have unique,but we can give alias name by using
+	                        alias element/tag
+	  </description>
+	
+	<alias name="emp" alias="empDetObj1"/>
+	<alias name="emp" alias="empDetObj2"/>
+	
+	<bean id="emp" class="com.har.beans.Employee">
+	    <property name="empName" value="HarishViru"/>
+	</bean>
+	
+	</beans>

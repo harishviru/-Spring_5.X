@@ -1,0 +1,7 @@
+Employee. 0-param constructor
+emp--->Employee [empName=HarishViru]
+ 'emp' beanName/beanId  aliase name....-------->empDetObj1
+ 'emp' beanName/beanId  aliase name....-------->empDetObj2
+By using aliases..............................
+empDetObj1--->Employee [empName=HarishViru]
+empDetObj2--->Employee [empName=HarishViru]
