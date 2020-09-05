@@ -1,0 +1,4 @@
+Student. 1-param constructor
+Student. 0-param constructor
+by Using constructor......Student [studName=Venu]
+by Using setter method......Student [studName=Viru]

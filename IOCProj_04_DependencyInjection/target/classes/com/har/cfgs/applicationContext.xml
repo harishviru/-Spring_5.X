@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+	
+	  <description>
+	                        DependencyInjection :two types
+	                                                               1)Constructor DI
+	                                                               2)Setter DI
+	                      
+	                       #Constructor DI          :
+	                       .We can inject dependent by constructor
+	                       .We can use contructor-arg as sub-element of bean element for constructor injection.
+	     
+ :WE CAN INJECT    
+	                       .Primitive and String values
+	                       .Dependent Objects
+	                       .Collection values
+	                       
+	                      #Setter DI 
+	                         .We can inject dependent by setter method
+	                       .We can use propery as sub-element of bean element for setter injection.
+	                       
+:WE CAN INJECT
+	                       .Primitive and String values
+	                       .Dependent Objects
+	                       .Collection values
+
+	  </description>
+		
+		   <!-- Constructor Injection -->
+	           <bean id="studCons" class="com.har.beans.Student">
+	                        <constructor-arg name="studName"  value="Venu"/>
+                </bean>
+		
+		<!-- Setter Injection -->
+	           <bean id="studSet" class="com.har.beans.Student">
+	                          <property name="studName" value="Viru" />
+                </bean>
+	</beans>
