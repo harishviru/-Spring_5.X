@@ -1,0 +1,33 @@
+#XmlBeanFactoryTest
+--------------------------------------
+Employee. 0-param constructor
+employee--(1)------>Employee [empName=HarishViru]
+employee---(2)----->Employee [empName=HarishViru]
+employee----(3)---->Employee [empName=HarishViru]
+ 'emp' beanName/beanId contains in beanFacory ....?----(4)---->true
+ 'emp' beanName/beanId is  isSingleton....?----(5)---->true
+ 'emp' beanName/beanId is  isProtoType....?----(6)---->false
+ 'emp' beanName/beanId  aliase name....----(7)---->empDetObj
+ If you don't beanId then we can use by pkg.className#n [where n=1,2,3...etc]----(8)---->Sat Sep 05 11:48:25 IST 2020
+---BeanDefinitionNames----
+emp
+java.util.Date#0
+BeanDefinitionCount----->2
+
+#ApplicationContextTest
+------------------------------------------
+Employee. 0-param constructor
+employee--(1)------>Employee [empName=HarishViru]
+employee---(2)----->Employee [empName=HarishViru]
+employee----(3)---->Employee [empName=HarishViru]
+ 'emp' beanName/beanId contains in beanFacory ....?----(4)---->true
+ 'emp' beanName/beanId is  isSingleton....?----(5)---->true
+ 'emp' beanName/beanId is  isProtoType....?----(6)---->false
+ 'emp' beanName/beanId  aliase name....----(7)---->empDetObj
+ If you don't beanId then we can use by pkg.className#n [where n=1,2,3...etc]----(8)---->Sat Sep 05 11:48:59 IST 2020
+
+#DefaultListableBeanFactoryTest
+---------------------------------------------------------
+Employee. 0-param constructor
+Employee [empName=HarishViru]
+
